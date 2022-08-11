@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleform.css">
+       
+        
+        
+    </head>
+    <body>
+        <div class="container">
+        <header class="header">
+            <div class="navbar">
+                   <img src="logo.png" class="nav-logo" >
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul> 
+            </div>
+        </header>
+        
+    
+       
+      
+        <div class="container-form">
+          <h1 id="title"> Survey Form</title>
+          <p id="description">Thank you for taking the time to help us improve the platform</p>
+         
+          <form id="survey-form">
+           <div class="from-group">
+            <label id="name-label" for="name">Name:</label>
+            <input 
+             id="name" 
+             type="text" 
+             name="name"required placeholder="Enter your name" class="t-form"> 
+         </div>
+         <div class="form-group">
+         <label id="email-label" for="email">Email:</label>
+         <input 
+         id="email" 
+         type="email"
+         name="email" 
+                 required placeholder="Enter your Email" class="t-form"> 
+         </label>
+         </div>
+          <div class="form-group">
+         <label id="number-label" for="number">Number:</lable>
+         <input id="number" type="number" min="1"  max="99" required placeholder="age" class="t-form">
+         </lable>
+         </div>
+         <div class="form-group">
+           <p class="text">Which option best describes your current role?</p>
+            <select id="dropdown" class="t-form" name="role" class="form-group"     required >
+            <option disabled selected value>select current role</option>
+            <option value="student">student</option>
+            <option value="teatcher">teacher</option>
+            <option value="volunteer">volunteer</option>
+            </div>
+            <div class="form-group">
+              <div>
+              <label>
+              <input type="radio" name="user-choice" value="definitely"class="input-radio" chicked>Definitely</label>
+              </div>
+              <div>
+              <label>
+              <input type="radio" name="user-choice" value="sure" class="input-radio"chicked>Sure</label>
+              </div>
+              <div>
+              <label>
+                <input type="radio" name="user-choice" value="maybe" class="input-radio"chicked >Maybe</label>
+              </div> 
+             <div class="form-group">
+               <p class="text">What would you like to see improved? </p>
+                <span>(Check all that apply)</span>
+            <div>
+          <lable>
+           <input type="checkbox" name="user-choice" value="Front-end Projects" class="input-check"/>Front-end Projects</lable>
+         </div>
+         <div>
+           <lable>
+           <input type="checkbox" name="user-choice" value="Back-end Projects" class="input-check" />Back-end Projects</lable></div>
+         <div>
+           <lable>
+           <input type="checkbox" name="user-choice" value="Data Visualization" class="input-check"/>Data Visualization</lable></div>
+           <div class="form-group">
+             <p class="text">Any comments or suggestions?</p>
+              
+               <textarea id="comments" name="comment" class="input-textarea" placeholder="Enter your comment">
+               </textarea>
+         <div class="form-group">
+         <button id="submit" type="submit" value="submit">submit</button>
+       
+       
+             </div>
+           </form>
+        </div>
+        </div>
+
+  <div>
+    <footer>
+      <div class="social">
+          <section id="contact">
+              
+                      <ul class="u-social">
+                          <li> <a href="http://www.facebook.com/aaron.alarabi"  > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="50px"></a></li>
+                            <li ><a href="http://www.twitter.com"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" width="50px"></a></li>
+                            <li><a href="http://www.linkdin.com"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50px"></a></li>
+                        </ul>
+                        <p id="copyright"> HDA Team &copy; 2022</p> 
+          </section>
+          <script src="gallery.js"></script>
+      </div>
+  </footer>
+  </div>
+   
+</body>
+    
